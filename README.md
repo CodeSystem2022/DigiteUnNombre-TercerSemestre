@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/113527033/232638953-17e9dd6a-0214-4747-99c5-85f0eb01ada3.png)
+
 # DigiteUnNombre-TercerSemestre
 
 Trabajos semanales de digite un nombre
