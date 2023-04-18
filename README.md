@@ -10,9 +10,9 @@ Semana del 10 al 14: Carolina
 
 Semana del 17 al 21: Gonzalo
 
-Semana del 24 al 28:
+Semana del 24 al 28: Juan Manuel
 
-Mayo Semana del 1 al 5:
+Mayo Semana del 1 al 5: Luciano diaz
 
 Semana del 8 al 12:
 
