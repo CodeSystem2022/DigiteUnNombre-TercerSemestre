@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/113527033/232638953-17e9dd6a-0214-4747-99c5-85f0eb01ada3.png)
+![image](https://user-images.githubusercontent.com/113527033/232639062-2e7fd069-0c11-4344-a70b-6410b9e5eacc.png)
 
 # DigiteUnNombre-TercerSemestre
 
