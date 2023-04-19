@@ -1,4 +1,4 @@
-!https://user-images.githubusercontent.com/112590235/233066233-a5a78d21-1957-4231-9f38-4a275bce3ea7.mp4
+!![Tribu Técnica](https://user-images.githubusercontent.com/112590235/233066471-600d8035-3cee-4cc6-998f-ebd7bcfb8244.jpg)
 
 
 
