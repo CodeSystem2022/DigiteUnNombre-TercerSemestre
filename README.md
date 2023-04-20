@@ -13,7 +13,7 @@ Encargados de presentar trabajos utilizando al metodo scrum :
 
 
 
-| ✧ Semana ✧ | ✧ Master ✧ |
+| ✧ Semana ✧ | ✧ Scrum Master ✧ |
 | ---- | ---- |
 | :lock: Abril semana 1 | *Carolina* |
 | :lock: Abril semana 2 | *Carolina* |
@@ -25,3 +25,23 @@ Encargados de presentar trabajos utilizando al metodo scrum :
 
 
 ![Código en acción](https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif)
+
+
+
+### `Somos Digite Un Nombre:`
+
+Integrantes Tercer Semestre : 
+
+:heavy_check_mark: Balladares Maria Florencia
+
+:heavy_check_mark: Barón Pablo Antonio
+
+:heavy_check_mark: Campderros Gonzalo
+
+:heavy_check_mark: Diaz Luciano Gabriel
+
+:heavy_check_mark: Eztala Juan Manuel
+
+:heavy_check_mark: Jurczyszyn Maria Carolina
+
+:heavy_check_mark: Nuñez Miriam
