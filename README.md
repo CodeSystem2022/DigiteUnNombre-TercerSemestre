@@ -20,3 +20,8 @@ Encargados de presentar trabajos utilizando al metodo scrum :
 | :lock: Abril semana 3 | *Gonzalo* |
 | :lock: Abril semana 4 | *Juan Manuel* |
 | :lock: Mayo semana 5 | *Luciano diaz* |
+
+
+
+
+![Código en acción](https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif)
