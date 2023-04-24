@@ -38,3 +38,49 @@ miFuncionDos(5, 7, 5);
 // toString
 var miFuncionTexto = miFuncionDos.toString();
 console.log(miFuncionTexto)
+
+//Funciones flecha
+const sumarFuncionFlecha = (a, b) => a + b;
+resultado = sumarFuncionFlecha(5, 5);
+console.log(resultado);
+
+// Función de tipo expresión
+let sumar = function(a = 4, b = 8){
+console.log(arguments[0]);
+console.log(arguments[1]);
+return a + b + arguments[2];
+}
+resultado = sumar(3, 2, 9);
+console.log(resultado);
+
+//Sumar todos los argumentos
+let respuesta = sumarTodos(5, 4, 13, 10, 9)
+console.log(respuesta)
+function sumarTodos(){
+    let suma = 0;
+    for(let i = 0; i < arguments.length; i++){
+        suma += arguments[i];
+    }
+    return suma;
+}
+//Tipos primitivos
+let k = 10;
+function cambiarValor(a){
+    a = 20
+}
+
+cambiarValor(k);
+console.log(k);
+
+//Paso por referencia
+const persona ={
+    nombre: 'Juan',
+    apellido: 'Leen'
+}
+
+function cambiarValorObjeto(p1){
+   p1.nombre = 'Pablo'
+   p1.apellido = 'Garcia'
+} 
+cambiarValorObjeto(persona)
+console.log(persona)
