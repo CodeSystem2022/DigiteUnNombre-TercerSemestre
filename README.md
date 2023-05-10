@@ -1,5 +1,5 @@
-!![Tribu Técnica](https://user-images.githubusercontent.com/112590235/233066471-600d8035-3cee-4cc6-998f-ebd7bcfb8244.jpg)
 
+![GRUPO DIGITE UN NOMBRE](https://github.com/CodeSystem2022/DigiteUnNombre-TercerSemestre/assets/112590235/3b1c6f21-ee14-4ef2-b7e9-37d55a9ad82b)
 
 
 
