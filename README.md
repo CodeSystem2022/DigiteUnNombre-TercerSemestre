@@ -34,8 +34,6 @@ Integrantes Tercer Semestre :
 
 :heavy_check_mark: Balladares Maria Florencia
 
-:heavy_check_mark: Barón Pablo Antonio
-
 :heavy_check_mark: Campderros Gonzalo
 
 :heavy_check_mark: Diaz Luciano Gabriel
