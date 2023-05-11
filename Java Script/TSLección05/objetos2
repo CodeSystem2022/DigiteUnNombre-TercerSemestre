@@ -1,1 +1,156 @@
+//objetos2
+let x = 10; // variable primitiva
+console.log(x.length); // da undefined pq no tiene propiedades o metodos asociados    // ya que es primitivo
+console.log("Tipos primitivos");
+// creamos un objeto
+let persona = {
+    nombre: "carlos",
+    apellido: "gil",
+    email: "carlos@email.com",
+    edad: 28,
+    idioma: "es",
+    get lang(){
+        return this.idioma.toUpperCase(); // convierte minúsculas a mayúsculas
+    },
+    set lang(lang){
+        this.idioma = lang.toUpperCase();
+    },
+    nombreCompleto: function(){ // metodo o funcion en JS
+        return this.nombre+" "+this.apellido;
+    },
+    get nombreEdad(){ // metodo get
+        return "El nombre es: "+this.nombre+", Edad: "+this.edad;
+    }   
+}
 
+console.log(persona.nombre);
+console.log(persona.apellido);
+console.log(persona.email);
+console.log(persona.edad);
+console.log(persona);
+console.log(persona.nombreCompleto());
+console.log("ejecutando con un objeto");
+let persona2 = new Object(); // creamos un objeto de memoria
+persona2.nombre = "juan";
+persona2.direccion = "libertador";
+persona2.telefono = "260670630";
+console.log(persona2.telefono);
+console.log("creamos un nuevo objeto");
+console.log(persona["apellido"]) // accedemos como un arreglo
+console.log("Usamos el ciclo for in");
+// for in
+for(propiedad in persona){
+    console.log(propiedad);
+    console.log(persona[propiedad]);
+}
+console.log("cambiamos y eliminamos un error"); 
+persona.apellido = "betancud"; // cambiamos dinamicamente el valor
+delete persona.apellido;
+console.log(persona); 
+
+// distintas formas para imprimir un objeto
+// numero 1 las mas facil
+console.log("Distinta formas de imprimir un objeto: forma 1");
+console.log(persona.nombre+" "+persona.apellido);
+
+
+// numero 2
+for (nombrePropiedad in persona){
+    console.log(persona[nombrePropiedad]);
+}
+
+// numero 3
+console.log("Distinta formas de imprimir un objeto: forma 3");
+let personaArray = Object.values(persona);
+console.log(personaArray)
+
+// numero 4
+console.log("Distinta formas de imprimir un objeto: forma4");
+let personaString = JSON.stringify(persona);
+console.log(personaString); 
+
+console.log("Comenzamos a utilizat el método get"); 
+console.log(persona.nombre.Edad); 
+
+console.log("Comenzamos con el método get y set para idiomas");
+persona.lang = "en"; 
+console.log(persona.lang); 
+
+function Persona3(nombre, apellido, email){ // constructor
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.nombreCompleto = function(){
+        return this.nombre+" "+this.apellido;
+    }
+}
+let padre = new Persona3("Leo", "Lopez", "lopezzl@gmail.com");
+padre.nombre = "Luis"; //modificamos el nombre 
+padre.telefono = "28739293839";
+console.log(padre); 
+console.log(padre.nombreCompleto()); //utilizamos la funcion 
+let madre = new Persona3("Laura", "Martinez", "lmartinez@gmail.com");
+console.log(madre);
+console.log(madre.telefono); // la propiedad no esta definida
+console.log(madre.nombreCompleto()); 
+
+//Diferentes formas de crear objetos
+
+// Caso objeto 1
+let miObjeto  = new Object();
+//caso objeto 2 
+let miObjeto2 = {};
+
+//caso String 1
+let miCaddena1 = new String("Hola"); //sintaxis formal
+//caso String 2 
+let miCaddena2 = "Hola"; //sintaxis simplificada
+
+//caso con números 1
+let miNumero = new Number(1); //formal no recomendable 
+//caso con números 2
+let miNumero2 = 1; //sintaxis recomendada 
+
+//caso boolean 1
+let miBolean1 = new Boolean(false); //formal 
+//caso boolean2
+let miBolean2 = false; // sintaxis recomendada 
+
+//caso Arreglos1 
+let miArreglo1 = new Array(); // formal
+//caso arreglo2 
+let miArreglo2 = []; // Sintaxis recomendada
+
+//caso function 1
+let miFuncion1 = new function(){}; //todo despues de new es considerado objeto
+//caso function 2 
+let miFuncion2 = function(){}; //notación simplificada y recomendada
+
+//Uso de prototype
+Persona3.prototype.telefono = "279408976";
+console.log(padre);
+console.log(madre.telefono)
+madre.telefono = "379738929"; 
+console.log(madre.telefono);
+
+//Uso de call
+let persona4 = {
+    nombre: "Juan",
+    apellido: "Perez",
+    nombreCompleto2: function(titulo, telefono){
+         return titulo+": "+this.apellido+" "+telefono;
+       //return this.nombre+" "+this.apellido; 
+    }
+}
+
+let persona5 = {
+    nombre: "Carlos",
+    apellido: "Lara",
+}
+
+console.log(persona4.nombreCompleto2("Lic", "27536748"));
+console.log(persona4.nombreCompleto.call(persona5, "Ing", "268374900")); 
+
+//Método Apply
+let arreglo = ["Ing", "28839087",];
+console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
