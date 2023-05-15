@@ -2,7 +2,7 @@
 package domain;
 
 
-public class Escritor extend Empleado{
+public class Escritor extends Empleado{
     final TipoEscritura tipoEscritura;
 
     public Escritor(String nombre, double sueldo, TipoEscritura tipoescritura){
