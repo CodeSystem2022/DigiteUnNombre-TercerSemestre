@@ -5,8 +5,8 @@ import domain.*;
 
 public class TestClaseObject {
     public static void main(String[] args) {
-        empleado empleado1 = new empleado("Martin", 5000);
-        empleado empleado2 = new empleado("Martin", 5000);
+        Empleado empleado1 = new Empleado("Martin", 5000);
+        Empleado empleado2 = new Empleado("Martin", 5000);
         
         if(empleado1 == empleado2){
             System.out.println("Tienen la misma referencia en memoria");
