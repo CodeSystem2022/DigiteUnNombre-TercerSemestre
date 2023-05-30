@@ -23,6 +23,7 @@ Encargados de presentar trabajos utilizando al metodo scrum :
 | :lock: Mayo semana 6 | *Myriam* |
 | :lock: Mayo semana 7 | *Florencia* |
 | :lock: Mayo semana 8 | *Carolina* |
+| :lock: Mayo semana 9 | *Gonzalo* |
 
 ![Código en acción](https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif)
 
