@@ -1,0 +1,23 @@
+07:54:52 PM:DEBUG [logger_baser.py:13] Mensaje a nivel debug
+07:54:52 PM:INFO [logger_baser.py:14] Mensaje a nivel info
+07:54:52 PM:WARNING [logger_baser.py:15] Mensaje a nivel warning
+07:54:52 PM:ERROR [logger_baser.py:16] Mensaje a nivel error
+07:54:52 PM:CRITICAL [logger_baser.py:17] Mensaje a nivel critical
+05:59:03 PM:DEBUG [logger_baser.py:13] Mensaje a nivel debug
+05:59:03 PM:INFO [logger_baser.py:14] Mensaje a nivel info
+05:59:03 PM:WARNING [logger_baser.py:15] Mensaje a nivel warning
+05:59:03 PM:ERROR [logger_baser.py:16] Mensaje a nivel error
+05:59:03 PM:CRITICAL [logger_baser.py:17] Mensaje a nivel critical
+04:45:19 PM:DEBUG [Persona.py:56] ""
+            id Persona: 1,
+            Nombre: juan, 
+            Apellido: perez, 
+            Email:jperez@mail.com
+           
+04:45:19 PM:DEBUG [Persona.py:59] ""
+            id Persona: None,
+            Nombre: jose, 
+            Apellido: lepez, 
+            Email:ljose@mail
+           
+04:49:27 PM:ERROR [conexion.py:27] Ocurrio un error: name 'bd' is not defined
