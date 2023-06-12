@@ -42,8 +42,6 @@ Integrantes Tercer Semestre :
 
 :heavy_check_mark: Diaz Luciano Gabriel
 
-:heavy_check_mark: Eztala Juan Manuel
-
 :heavy_check_mark: Jurczyszyn Maria Carolina
 
 :heavy_check_mark: Nuñez Miriam
