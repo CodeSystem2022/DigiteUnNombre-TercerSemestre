@@ -1,5 +1,6 @@
 
-![GRUPO DIGITE UN NOMBRE]()
+![Tribu Técnica](https://github.com/CodeSystem2022/DigiteUnNombre-TercerSemestre/assets/112590235/16335371-7ef6-475e-8733-2303b90f10df)
+
 
 
 
